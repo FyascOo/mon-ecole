@@ -1,0 +1,31 @@
+{
+  "name": "mon-ecole-back",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/mon-ecole-back/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "mon-ecole-back:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "mon-ecole-back:build:development"
+        },
+        "production": {
+          "buildTarget": "mon-ecole-back:build:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/mon-ecole-back/jest.config.ts"
+      }
+    }
+  }
+}
