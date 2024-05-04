@@ -15,12 +15,16 @@
     "@angular/router": "~17.3.0",
     "@nestjs/common": "^10.0.2",
     "@nestjs/core": "^10.0.2",
+    "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^10.0.2",
+    "@nestjs/typeorm": "^10.0.2",
     "@nx/angular": "18.3.3",
     "axios": "^1.6.0",
+    "pg": "^8.11.5",
     "reflect-metadata": "^0.1.13",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "typeorm": "^0.3.20",
     "zone.js": "~0.14.3"
   },
   "devDependencies": {
