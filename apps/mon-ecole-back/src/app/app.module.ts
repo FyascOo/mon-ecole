@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 
+import { Annuaire, AnnuaireModule } from '@mon-ecole/annuaire';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
@@ -13,10 +14,11 @@ import { AppService } from './app.service';
       username: 'postgres',
       password: 'root',
       database: 'mon-ecole',
-      entities: [],
+      entities: [Annuaire],
       synchronize: true,
       logging: true,
     }),
+    AnnuaireModule,
   ],
   controllers: [AppController],
   providers: [AppService],

@@ -1,1 +1,3 @@
-export * from './lib/annuaire/annuaire.component';
+export * from './annuaire.component';
+export * from './resource/entities/annuaire.entity';
+export * from './resource/annuaire.module';
