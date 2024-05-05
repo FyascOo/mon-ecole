@@ -1,18 +1,26 @@
 import { AsyncPipe, JsonPipe } from '@angular/common';
-import { HttpClient, HttpParams } from '@angular/common/http';
-import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'lib-annuaire',
   standalone: true,
   imports: [AsyncPipe, JsonPipe],
-  template: `ça marche`,
+  template: `<div class="diff aspect-[16/9]">
+    <div class="diff-item-1">
+      <div
+        class="bg-primary text-primary-content text-9xl font-black grid place-content-center"
+      >
+        DAISY
+      </div>
+    </div>
+    <div class="diff-item-2">
+      <div class="bg-base-200 text-9xl font-black grid place-content-center">
+        DAISY
+      </div>
+    </div>
+    <div class="diff-resizer"></div>
+  </div>`,
   styles: ``,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AnnuaireComponent {
-  param = new HttpParams().append('page', 0);
-  http = inject(HttpClient)
-    .get('http://127.0.0.1:3000/api/annuaire', { params: this.param })
-    .subscribe(console.log);
-}
+export class AnnuaireComponent {}
