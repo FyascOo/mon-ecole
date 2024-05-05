@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@mon-ecole/annuaire": ["libs/annuaire/client/src/index.ts"],
-      "@mon-ecole/annuaire-api": ["libs/annuaire/api/src/index.ts"]
+      "@mon-ecole/annuaire-api": ["libs/annuaire/api/src/index.ts"],
+      "@mon-ecole/shared-ui": ["libs/shared/ui/src/index.ts"]
     },
     "strictPropertyInitialization": false
   },

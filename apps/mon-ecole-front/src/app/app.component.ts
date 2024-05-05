@@ -1,10 +1,19 @@
 import { Component } from '@angular/core';
-import { AnnuaireComponent } from '@mon-ecole/annuaire';
+import { RouterOutlet } from '@angular/router';
+import {
+  FooterComponent,
+  HeaderComponent,
+  MainComponent,
+} from '@mon-ecole/shared-ui';
 
 @Component({
   standalone: true,
-  imports: [AnnuaireComponent],
+  imports: [HeaderComponent, FooterComponent, MainComponent, RouterOutlet],
   selector: 'app-root',
-  template: `<lib-annuaire />`,
+  template: `
+    <ui-header />
+    <ui-main><router-outlet /></ui-main>
+    <ui-footer />
+  `,
 })
 export class AppComponent {}

@@ -1,12 +1,11 @@
-import { AsyncPipe, JsonPipe } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-annuaire',
+  selector: 'ui-footer',
   standalone: true,
-  imports: [AsyncPipe, JsonPipe],
+  imports: [],
   template: ``,
   styles: ``,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AnnuaireComponent {}
+export class FooterComponent {}
