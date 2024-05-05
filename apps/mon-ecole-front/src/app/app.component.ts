@@ -1,14 +1,10 @@
-import { AsyncPipe, JsonPipe } from '@angular/common';
-import { HttpClient } from '@angular/common/http';
-import { Component, inject } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { Component } from '@angular/core';
+import { AnnuaireComponent } from '@mon-ecole/annuaire';
 
 @Component({
   standalone: true,
-  imports: [RouterModule, AsyncPipe, JsonPipe],
+  imports: [AnnuaireComponent],
   selector: 'app-root',
-  template: `{{ http | async | json }}`,
+  template: `<lib-annuaire />`,
 })
-export class AppComponent {
-  http = inject(HttpClient).get('http://127.0.0.1:3000/api/test/1');
-}
+export class AppComponent {}

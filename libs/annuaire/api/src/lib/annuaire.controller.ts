@@ -1,11 +1,12 @@
 import {
-  Controller,
-  Get,
-  Post,
   Body,
-  Patch,
-  Param,
+  Controller,
   Delete,
+  Get,
+  Param,
+  Patch,
+  Post,
+  Query,
 } from '@nestjs/common';
 import { AnnuaireService } from './annuaire.service';
 import { CreateAnnuaireDto } from './dto/create-annuaire.dto';
@@ -21,8 +22,8 @@ export class AnnuaireController {
   }
 
   @Get()
-  findAll() {
-    return this.annuaireService.findAll();
+  findAll(@Query('page') page: number) {
+    return this.annuaireService.findAll(page);
   }
 
   @Get(':id')

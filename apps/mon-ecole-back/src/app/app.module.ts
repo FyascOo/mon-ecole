@@ -1,7 +1,8 @@
 import { Module } from '@nestjs/common';
 
-import { Annuaire, AnnuaireModule } from '@mon-ecole/annuaire';
+import { Annuaire, AnnuaireApiModule } from '@mon-ecole/annuaire-api';
 import { TypeOrmModule } from '@nestjs/typeorm';
+
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
@@ -15,11 +16,11 @@ import { AppService } from './app.service';
       password: 'root',
       database: 'mon-ecole',
       entities: [Annuaire],
-      synchronize: true,
       logging: true,
     }),
-    AnnuaireModule,
+    AnnuaireApiModule,
   ],
+
   controllers: [AppController],
   providers: [AppService],
 })

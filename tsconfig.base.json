@@ -15,8 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@mon-ecole/annuaire": ["libs/annuaire/src/index.ts"]
-    }
+      "@mon-ecole/annuaire": ["libs/annuaire/client/src/index.ts"],
+      "@mon-ecole/annuaire-api": ["libs/annuaire/api/src/index.ts"]
+    },
+    "strictPropertyInitialization": false
   },
   "exclude": ["node_modules", "tmp"]
 }
