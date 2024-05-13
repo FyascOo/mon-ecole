@@ -5,7 +5,10 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'lib-annuaire',
   standalone: true,
   imports: [AsyncPipe, JsonPipe],
-  template: ``,
+  template: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+  corporis doloremque sequi fugit voluptatem obcaecati dolores quaerat nesciunt,
+  ducimus nobis. Alias eaque perspiciatis nam blanditiis inventore laudantium
+  sequi id cupiditate.`,
   styles: ``,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
