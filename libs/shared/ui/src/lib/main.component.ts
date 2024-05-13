@@ -4,8 +4,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'ui-main',
   standalone: true,
   imports: [],
-  template: ``,
-  styles: ``,
+  template: ` <ng-content></ng-content> `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MainComponent {}
