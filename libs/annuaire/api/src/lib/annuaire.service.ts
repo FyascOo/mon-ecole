@@ -18,7 +18,7 @@ export class AnnuaireService {
   findAll(page: number) {
     const skip = page * 20;
     return this.annuaireRepository.find({
-      take: 20,
+      take: 10,
       skip,
     });
   }

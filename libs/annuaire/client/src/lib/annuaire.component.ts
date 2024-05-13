@@ -1,15 +1,21 @@
 import { AsyncPipe, JsonPipe } from '@angular/common';
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { AnnuaireService } from './annuaire.service';
 
 @Component({
   selector: 'lib-annuaire',
   standalone: true,
   imports: [AsyncPipe, JsonPipe],
-  template: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-  corporis doloremque sequi fugit voluptatem obcaecati dolores quaerat nesciunt,
-  ducimus nobis. Alias eaque perspiciatis nam blanditiis inventore laudantium
-  sequi id cupiditate.`,
+  template: `
+    <ul>
+      @for (ecole of ecoles$ | async; track $index) {
+      <li>{{ ecole.nomEtablissement }}: {{ ecole.adresse1 }} {{ ecole.codePostal }} {{ ecole.nomCommune }}</li>
+      }
+    </ul>
+  `,
   styles: ``,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AnnuaireComponent {}
+export class AnnuaireComponent {
+  ecoles$ = inject(AnnuaireService).getEcoles();
+}
