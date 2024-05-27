@@ -20,7 +20,7 @@
           "apps/mon-ecole-front/src/favicon.ico",
           "apps/mon-ecole-front/src/assets"
         ],
-        "styles": ["apps/mon-ecole-front/src/styles.scss"],
+        "styles": ["apps/mon-ecole-front/src/styles.scss", "node_modules/ol/ol.css"],
         "scripts": []
       },
       "configurations": {

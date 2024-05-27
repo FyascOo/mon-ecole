@@ -1,9 +1,10 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'ui-header',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   template: `
     <div class="navbar bg-base-100">
       <div class="navbar-start">
@@ -19,7 +20,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         </div>
       </div>
       <div class="navbar-center">
-        <a class="btn btn-ghost text-xl">Mon école</a>
+        <a routerLink="/" class="btn btn-ghost text-xl">Mon école</a>
       </div>
       <div class="navbar-end">
         <button class="btn btn-ghost btn-circle">

@@ -20,6 +20,7 @@
     "@nestjs/typeorm": "^10.0.2",
     "@nx/angular": "18.3.3",
     "axios": "^1.6.0",
+    "ol": "^9.2.4",
     "pg": "^8.11.5",
     "reflect-metadata": "^0.1.13",
     "rxjs": "~7.8.0",
