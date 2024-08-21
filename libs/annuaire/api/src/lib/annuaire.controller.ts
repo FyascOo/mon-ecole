@@ -1,13 +1,4 @@
-import {
-  Body,
-  Controller,
-  Delete,
-  Get,
-  Param,
-  Patch,
-  Post,
-  Query,
-} from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Patch, Post, Query } from '@nestjs/common';
 import { AnnuaireService } from './annuaire.service';
 import { CreateAnnuaireDto } from './dto/create-annuaire.dto';
 import { UpdateAnnuaireDto } from './dto/update-annuaire.dto';
@@ -26,16 +17,18 @@ export class AnnuaireController {
     return this.annuaireService.findAll(page);
   }
 
+  @Get('search')
+  search(@Query('search') search: string) {
+    return this.annuaireService.search(search);
+  }
+
   @Get(':id')
   findOne(@Param('id') id: string) {
     return this.annuaireService.findOne(+id);
   }
 
   @Patch(':id')
-  update(
-    @Param('id') id: string,
-    @Body() updateAnnuaireDto: UpdateAnnuaireDto
-  ) {
+  update(@Param('id') id: string, @Body() updateAnnuaireDto: UpdateAnnuaireDto) {
     return this.annuaireService.update(+id, updateAnnuaireDto);
   }
 

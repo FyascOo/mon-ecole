@@ -30,4 +30,5 @@ import { AnnuaireService } from './annuaire.service';
 })
 export class AnnuaireComponent {
   ecoles$ = inject(AnnuaireService).getEcoles();
+  test$ = inject(AnnuaireService).search().subscribe(console.log);
 }
