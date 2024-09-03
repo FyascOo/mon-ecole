@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
+import { outputFromObservable } from '@angular/core/rxjs-interop';
+import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 
 @Component({
@@ -25,7 +26,7 @@ import { RouterLink } from '@angular/router';
       </div>
       <div class="navbar-end">
         <label class="input input-bordered flex items-center gap-2">
-          <input type="text" class="grow" placeholder="Recherche" />
+          <input [formControl]="search" type="text" class="grow" placeholder="Recherche" />
           <span class="material-symbols-outlined">search</span>
         </label>
       </div>
@@ -34,4 +35,7 @@ import { RouterLink } from '@angular/router';
   styles: ``,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  search = new FormControl('');
+  searchChanges = outputFromObservable(this.search.valueChanges);
+}

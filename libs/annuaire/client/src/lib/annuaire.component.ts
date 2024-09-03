@@ -1,34 +1,40 @@
 import { AsyncPipe, JsonPipe } from '@angular/common';
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Router } from '@angular/router';
 import { PaginationComponent } from '@mon-ecole/shared-ui';
-import { AnnuaireService } from './annuaire.service';
+import { AnnuaireStore } from './annuaire.store';
 
 @Component({
   selector: 'lib-annuaire',
   standalone: true,
-  imports: [AsyncPipe, JsonPipe, RouterLink, PaginationComponent],
+  imports: [AsyncPipe, JsonPipe, PaginationComponent],
   template: `
-    @if(ecoles$ | async; as ecoles) {
+    @if(annuaireStore.isLoading()) {
+    <span class="loading loading-bars loading-lg"></span>
+    } @else {
     <ul>
-      @for (ecole of ecoles; track $index) {
+      @for (ecole of annuaireStore.ecoles(); track $index) {
       <li class="flex">
+        {{ ecole.nomCommune }} :
         {{ ecole.nomEtablissement }}
-        <button class="btn-sm" [routerLink]="ecole.identifiantDeLEtablissement">
+        <button class="btn-sm" (click)="navigateToEcole(ecole.identifiantDeLEtablissement)">
           <span class="material-symbols-outlined">arrow_forward</span>
         </button>
       </li>
       }
     </ul>
-    <ui-pagination />
-    } @else {
-    <span class="loading loading-bars loading-lg"></span>
+    <!-- <ui-pagination /> -->
     }
   `,
   styles: ``,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AnnuaireComponent {
-  ecoles$ = inject(AnnuaireService).getEcoles();
-  test$ = inject(AnnuaireService).search().subscribe(console.log);
+  annuaireStore = inject(AnnuaireStore);
+  router = inject(Router);
+
+  navigateToEcole(selectedEcoleId: string) {
+    this.annuaireStore.setSelectedEcoleId(selectedEcoleId);
+    this.router.navigate([selectedEcoleId]);
+  }
 }

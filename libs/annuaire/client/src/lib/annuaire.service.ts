@@ -16,10 +16,10 @@ export class AnnuaireService {
     });
   }
 
-  search() {
+  search(search: string) {
     return this.#http.get<Annuaire[]>('http://127.0.0.1:3000/api/annuaire/search', {
       params: {
-        search: 'saint',
+        search,
       },
     });
   }

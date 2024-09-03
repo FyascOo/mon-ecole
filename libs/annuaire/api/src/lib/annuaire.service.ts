@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Like, Repository } from 'typeorm';
+import { ILike, Repository } from 'typeorm';
 import { CreateAnnuaireDto } from './dto/create-annuaire.dto';
 import { UpdateAnnuaireDto } from './dto/update-annuaire.dto';
 import { Annuaire } from './entities/annuaire.entity';
@@ -25,7 +25,7 @@ export class AnnuaireService {
 
   search(search: string) {
     return this.annuaireRepository.find({
-      where: { nomEtablissement: Like(`%${search}%`) },
+      where: [{ nomEtablissement: ILike(`%${search}%`) }, { nomCommune: ILike(`%${search}%`) }],
       take: 10,
     });
   }

@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { AnnuaireStore } from '@mon-ecole/annuaire';
 import { FooterComponent, HeaderComponent, MainComponent } from '@mon-ecole/shared-ui';
 
 @Component({
@@ -8,9 +9,18 @@ import { FooterComponent, HeaderComponent, MainComponent } from '@mon-ecole/shar
   selector: 'app-root',
   host: { class: 'flex flex-col flex-1' },
   template: `
-    <ui-header />
+    <ui-header (searchChanges)="searchChanges($event)" />
     <ui-main><router-outlet /></ui-main>
     <ui-footer />
   `,
 })
-export class AppComponent {}
+export class AppComponent {
+  annuaireStore = inject(AnnuaireStore);
+
+  searchChanges(search: string | null) {
+    console.log(search);
+    if (search) {
+      this.annuaireStore.loadBySearch(search);
+    }
+  }
+}
