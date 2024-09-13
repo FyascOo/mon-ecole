@@ -10,14 +10,14 @@ type AnnuaireState = {
   ecoles: Annuaire[];
   selectedEcoleId: string | null;
   isLoading: boolean;
-  filter: { query: string; order: 'asc' | 'desc' };
+  open: boolean;
 };
 
 const initialState: AnnuaireState = {
   ecoles: [],
   selectedEcoleId: null,
   isLoading: false,
-  filter: { query: '', order: 'asc' },
+  open: false,
 };
 
 export const AnnuaireStore = signalStore(
@@ -32,9 +32,11 @@ export const AnnuaireStore = signalStore(
     setSelectedEcoleId: (selectedEcoleId: string) => {
       patchState(store, state => ({ selectedEcoleId }));
     },
+    openChanges: () => {
+      patchState(store, state => ({ open: !state.open }));
+    },
     initialLoad: rxMethod<void>(
       pipe(
-        tap(value => console.log('hey', value)),
         tap(() => patchState(store, { isLoading: true })),
         switchMap(() => {
           return annuaireService.getEcoles().pipe(
@@ -54,7 +56,6 @@ export const AnnuaireStore = signalStore(
         debounceTime(500),
         distinctUntilChanged(),
         tap(() => patchState(store, { isLoading: true })),
-        tap(value => console.log('hey', value)),
         switchMap(search => {
           return annuaireService.search(search).pipe(
             tapResponse({

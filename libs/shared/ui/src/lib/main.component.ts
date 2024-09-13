@@ -5,10 +5,10 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   standalone: true,
   imports: [],
   host: {
-    class: 'flex-1 p-5 flex justify-center',
+    class: '',
   },
   template: `
-    <div class="xl:w-1/2 lg:w-1/2">
+    <div>
       <ng-content></ng-content>
     </div>
   `,
