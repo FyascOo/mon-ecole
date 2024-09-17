@@ -1,16 +1,9 @@
-import { Body, Controller, Delete, Get, Param, Patch, Post, Query } from '@nestjs/common';
+import { Controller, Get, Query } from '@nestjs/common';
 import { AnnuaireService } from './annuaire.service';
-import { CreateAnnuaireDto } from './dto/create-annuaire.dto';
-import { UpdateAnnuaireDto } from './dto/update-annuaire.dto';
 
 @Controller('annuaire')
 export class AnnuaireController {
   constructor(private readonly annuaireService: AnnuaireService) {}
-
-  @Post()
-  create(@Body() createAnnuaireDto: CreateAnnuaireDto) {
-    return this.annuaireService.create(createAnnuaireDto);
-  }
 
   @Get()
   findAll(@Query('page') page: number) {
@@ -22,18 +15,13 @@ export class AnnuaireController {
     return this.annuaireService.search(search);
   }
 
-  @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.annuaireService.findOne(+id);
+  @Get('departements')
+  departements() {
+    return this.annuaireService.departements();
   }
 
-  @Patch(':id')
-  update(@Param('id') id: string, @Body() updateAnnuaireDto: UpdateAnnuaireDto) {
-    return this.annuaireService.update(+id, updateAnnuaireDto);
-  }
-
-  @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.annuaireService.remove(+id);
+  @Get('circonscriptions')
+  circonscriptions() {
+    return this.annuaireService.circonscriptions();
   }
 }

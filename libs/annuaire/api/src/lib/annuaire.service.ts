@@ -1,8 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { ILike, Repository } from 'typeorm';
-import { CreateAnnuaireDto } from './dto/create-annuaire.dto';
-import { UpdateAnnuaireDto } from './dto/update-annuaire.dto';
 import { Annuaire } from './entities/annuaire.entity';
 
 @Injectable()
@@ -11,9 +9,6 @@ export class AnnuaireService {
     @InjectRepository(Annuaire)
     private annuaireRepository: Repository<Annuaire>
   ) {}
-  create(createAnnuaireDto: CreateAnnuaireDto) {
-    return 'This action adds a new annuaire';
-  }
 
   findAll(page: number) {
     const skip = page * 20;
@@ -26,19 +21,24 @@ export class AnnuaireService {
   search(search: string) {
     return this.annuaireRepository.find({
       where: [{ nomEtablissement: ILike(`%${search}%`) }, { nomCommune: ILike(`%${search}%`) }],
-      take: 10,
     });
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} annuaire`;
+  departements() {
+    return this.annuaireRepository
+      .createQueryBuilder('annuaire')
+      .select(['annuaire.codeDepartement', 'annuaire.libelleDepartement'])
+      .distinctOn(['annuaire.codeDepartement'])
+      .orderBy({ 'annuaire.codeDepartement': 'ASC' })
+      .getMany();
   }
 
-  update(id: number, updateAnnuaireDto: UpdateAnnuaireDto) {
-    return `This action updates a #${id} annuaire`;
-  }
-
-  remove(id: number) {
-    return `This action removes a #${id} annuaire`;
+  circonscriptions() {
+    return this.annuaireRepository
+      .createQueryBuilder('annuaire')
+      .select(['annuaire.codeCirconscription', 'annuaire.nomCirconscription', 'annuaire.codeDepartement'])
+      .distinctOn(['annuaire.nomCirconscription'])
+      .orderBy({ 'annuaire.nomCirconscription': 'ASC' })
+      .getMany();
   }
 }

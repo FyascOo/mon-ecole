@@ -23,4 +23,12 @@ export class AnnuaireService {
       },
     });
   }
+
+  departements() {
+    return this.#http.get<Annuaire[]>('http://127.0.0.1:3000/api/annuaire/departements', {});
+  }
+
+  circonscriptions() {
+    return this.#http.get<Annuaire[]>('http://127.0.0.1:3000/api/annuaire/circonscriptions', {});
+  }
 }

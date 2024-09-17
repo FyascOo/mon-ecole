@@ -2,12 +2,14 @@ import { computed, inject } from '@angular/core';
 import { tapResponse } from '@ngrx/operators';
 import { patchState, signalStore, withComputed, withHooks, withMethods, withState } from '@ngrx/signals';
 import { rxMethod } from '@ngrx/signals/rxjs-interop';
-import { debounceTime, distinctUntilChanged, pipe, switchMap, tap } from 'rxjs';
+import { debounceTime, distinctUntilChanged, filter, forkJoin, pipe, switchMap, tap } from 'rxjs';
 import { Annuaire } from '../../../shared/model/annuaire';
 import { AnnuaireService } from './annuaire.service';
 
 type AnnuaireState = {
   ecoles: Annuaire[];
+  departements: Pick<Annuaire, 'codeDepartement' | 'libelleDepartement'>[];
+  circonscriptions: Pick<Annuaire, 'codeCirconscription' | 'nomCirconscription' | 'codeDepartement'>[];
   selectedEcoleId: string | null;
   isLoading: boolean;
   open: boolean;
@@ -15,6 +17,8 @@ type AnnuaireState = {
 
 const initialState: AnnuaireState = {
   ecoles: [],
+  departements: [],
+  circonscriptions: [],
   selectedEcoleId: null,
   isLoading: false,
   open: false,
@@ -39,9 +43,14 @@ export const AnnuaireStore = signalStore(
       pipe(
         tap(() => patchState(store, { isLoading: true })),
         switchMap(() => {
-          return annuaireService.getEcoles().pipe(
+          return forkJoin([
+            annuaireService.getEcoles(),
+            annuaireService.departements(),
+            annuaireService.circonscriptions(),
+          ]).pipe(
             tapResponse({
-              next: ecoles => patchState(store, { ecoles, isLoading: false }),
+              next: ([ecoles, departements, circonscriptions]) =>
+                patchState(store, { ecoles, departements, circonscriptions, isLoading: false }),
               error: err => {
                 patchState(store, { isLoading: false });
                 console.error(err);
@@ -51,13 +60,15 @@ export const AnnuaireStore = signalStore(
         })
       )
     ),
-    loadBySearch: rxMethod<string>(
+    loadBySearch: rxMethod<string | null>(
       pipe(
         debounceTime(500),
         distinctUntilChanged(),
         tap(() => patchState(store, { isLoading: true })),
+        tap(search => console.log(search)),
+        filter(search => !!search),
         switchMap(search => {
-          return annuaireService.search(search).pipe(
+          return annuaireService.search(search!).pipe(
             tapResponse({
               next: ecoles => patchState(store, { ecoles, isLoading: false }),
               error: err => {

@@ -12,16 +12,18 @@ import { AnnuaireStore } from './annuaire.store';
   standalone: true,
   imports: [],
   template: `
-    <h1>{{ store.ecole().nomCommune }}</h1>
-    <h2>{{ store.ecole().nomEtablissement }}</h2>
-    ---
-    <span>{{ store.ecole().nomCirconscription }}</span>
-    ---
-    <p>Adresse: {{ store.ecole().adresse1 }}</p>
-    <p>Code postal: {{ store.ecole().codePostal }}</p>
-    <p>Ville: {{ store.ecole().nomCommune }}</p>
-    <p>Adresse mail: {{ store.ecole().mail }}</p>
-    <p>Téléphone: {{ store.ecole().telephone }}</p>
+    <div class="mb-2 flex flex-col items-center">
+      <h1>{{ store.ecole().nomCommune }}</h1>
+      <h2>{{ store.ecole().nomEtablissement }}</h2>
+      ---
+      <span>{{ store.ecole().nomCirconscription }}</span>
+      ---
+      <p>Adresse: {{ store.ecole().adresse1 }}</p>
+      <p>Code postal: {{ store.ecole().codePostal }}</p>
+      <p>Ville: {{ store.ecole().nomCommune }}</p>
+      <p>Adresse mail: {{ store.ecole().mail }}</p>
+      <p>Téléphone: {{ store.ecole().telephone }}</p>
+    </div>
 
     <div id="ol-map" (click)="openMaps()" class="grow h-80 cursor-pointer"></div>
   `,
