@@ -5,11 +5,14 @@ import { rxMethod } from '@ngrx/signals/rxjs-interop';
 import { debounceTime, distinctUntilChanged, filter, forkJoin, pipe, switchMap, tap } from 'rxjs';
 import { Annuaire } from '../../../shared/model/annuaire';
 import { AnnuaireService } from './annuaire.service';
-
+export type Departement = Pick<Annuaire, 'codeDepartement' | 'libelleDepartement'>;
+export type Circonscription = Pick<Annuaire, 'codeCirconscription' | 'nomCirconscription' | 'codeDepartement'>;
 type AnnuaireState = {
   ecoles: Annuaire[];
-  departements: Pick<Annuaire, 'codeDepartement' | 'libelleDepartement'>[];
-  circonscriptions: Pick<Annuaire, 'codeCirconscription' | 'nomCirconscription' | 'codeDepartement'>[];
+  departements: Departement[];
+  selectedDepartement: Departement | null;
+  circonscriptions: Circonscription[];
+  selectedCirconscription: Circonscription | null;
   selectedEcoleId: string | null;
   isLoading: boolean;
   open: boolean;
@@ -18,7 +21,9 @@ type AnnuaireState = {
 const initialState: AnnuaireState = {
   ecoles: [],
   departements: [],
+  selectedDepartement: null,
   circonscriptions: [],
+  selectedCirconscription: null,
   selectedEcoleId: null,
   isLoading: false,
   open: false,
@@ -27,14 +32,26 @@ const initialState: AnnuaireState = {
 export const AnnuaireStore = signalStore(
   { providedIn: 'root' },
   withState(initialState),
-  withComputed(({ ecoles, selectedEcoleId }) => ({
-    ecole: computed(() => {
-      return ecoles().find(ecole => ecole.identifiantDeLEtablissement === selectedEcoleId())!;
-    }),
-  })),
+  withComputed(
+    ({ ecoles, selectedEcoleId, departements, selectedDepartement, circonscriptions, selectedCirconscription }) => ({
+      ecole: computed(() => {
+        return ecoles().find(ecole => ecole.identifiantDeLEtablissement === selectedEcoleId())!;
+      }),
+      filterDepartements: computed(() => {
+        return selectedCirconscription()
+          ? departements().filter(d => d.codeDepartement === selectedCirconscription()?.codeDepartement)
+          : departements();
+      }),
+      filterCirconscriptions: computed(() => {
+        return selectedDepartement()
+          ? circonscriptions().filter(c => c.codeDepartement === selectedDepartement()?.codeDepartement)
+          : circonscriptions();
+      }),
+    })
+  ),
   withMethods((store, annuaireService = inject(AnnuaireService)) => ({
     setSelectedEcoleId: (selectedEcoleId: string) => {
-      patchState(store, state => ({ selectedEcoleId }));
+      patchState(store, () => ({ selectedEcoleId }));
     },
     openChanges: () => {
       patchState(store, state => ({ open: !state.open }));
@@ -64,11 +81,10 @@ export const AnnuaireStore = signalStore(
       pipe(
         debounceTime(500),
         distinctUntilChanged(),
-        tap(() => patchState(store, { isLoading: true })),
-        tap(search => console.log(search)),
         filter(search => !!search),
+        tap(() => patchState(store, { isLoading: true })),
         switchMap(search => {
-          return annuaireService.search(search!).pipe(
+          return annuaireService.search(search!, store.selectedDepartement(), store.selectedCirconscription()).pipe(
             tapResponse({
               next: ecoles => patchState(store, { ecoles, isLoading: false }),
               error: err => {
@@ -79,6 +95,12 @@ export const AnnuaireStore = signalStore(
           );
         })
       )
+    ),
+    departementChanges: rxMethod<Departement>(
+      pipe(tap(selectedDepartement => patchState(store, { selectedDepartement })))
+    ),
+    circonscriptionChanges: rxMethod<Circonscription>(
+      pipe(tap(selectedCirconscription => patchState(store, { selectedCirconscription })))
     ),
   })),
   withHooks({

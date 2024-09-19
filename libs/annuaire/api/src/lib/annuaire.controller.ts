@@ -11,8 +11,12 @@ export class AnnuaireController {
   }
 
   @Get('search')
-  search(@Query('search') search: string) {
-    return this.annuaireService.search(search);
+  search(
+    @Query('search') search: string,
+    @Query('codeDepartement') codeDepartement?: string,
+    @Query('codeCirconscription') codeCirconscription?: string
+  ) {
+    return this.annuaireService.search(search, codeDepartement, codeCirconscription);
   }
 
   @Get('departements')

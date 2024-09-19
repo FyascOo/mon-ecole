@@ -1,29 +1,34 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { AnnuaireStore } from '@mon-ecole/annuaire';
 
 @Component({
   selector: 'ui-header',
   standalone: true,
-  imports: [],
+  imports: [ReactiveFormsModule],
   template: `
     <div class="navbar bg-neutral flex">
-      <div class="navbar-start">
+      <div class="content-start">
         <ng-content></ng-content>
       </div>
-      <div class="navbar-center">
+      <div class=" max-md:hidden navbar-center flex justify-center">
         <a class="btn btn-ghost text-xl">Mon école</a>
       </div>
-      <div class="navbar-end">
-        <select class="select select-bordered w-full max-w-xs">
-          <option selected>Département</option>
-          @for (departement of annuaireStore.departements(); track $index) {
-          <option>{{ departement.codeDepartement }} - {{ departement.libelleDepartement }}</option>
+      <div class="navbar-end flex-1">
+        <select [formControl]="departementFC" class="select select-bordered w-full max-w-xs">
+          <option selected [ngValue]="null">Département</option>
+          @for (departement of annuaireStore.filterDepartements(); track $index) {
+          <option [ngValue]="departement">
+            {{ departement.codeDepartement }} - {{ departement.libelleDepartement }}
+          </option>
           }
         </select>
-        <select class="select select-bordered w-full max-w-xs">
-          <option selected>Circonscriprion</option>
-          @for (circonscription of annuaireStore.circonscriptions(); track $index) {
-          <option>{{ circonscription.codeCirconscription }} - {{ circonscription.nomCirconscription }}</option>
+        <select [formControl]="circonscriptionFC" class="select select-bordered w-full max-w-xs">
+          <option selected [ngValue]="null">Circonscription</option>
+          @for (circonscription of annuaireStore.filterCirconscriptions(); track $index) {
+          <option [ngValue]="circonscription">
+            {{ circonscription.codeCirconscription }} - {{ circonscription.nomCirconscription }}
+          </option>
           }
         </select>
       </div>
@@ -34,4 +39,11 @@ import { AnnuaireStore } from '@mon-ecole/annuaire';
 })
 export class HeaderComponent {
   annuaireStore = inject(AnnuaireStore);
+  departementFC = new FormControl();
+  circonscriptionFC = new FormControl();
+
+  constructor() {
+    this.annuaireStore.departementChanges(this.departementFC.valueChanges);
+    this.annuaireStore.circonscriptionChanges(this.circonscriptionFC.valueChanges);
+  }
 }

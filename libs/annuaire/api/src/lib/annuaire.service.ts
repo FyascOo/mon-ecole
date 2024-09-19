@@ -18,7 +18,41 @@ export class AnnuaireService {
     });
   }
 
-  search(search: string) {
+  search(search: string, codeDepartement?: string, codeCirconscription?: string) {
+    if (codeDepartement && codeCirconscription) {
+      return this.annuaireRepository.find({
+        where: [
+          {
+            nomEtablissement: ILike(`%${search}%`),
+            codeDepartement: ILike(`${codeDepartement}`),
+            codeCirconscription: ILike(`%${codeCirconscription}%`),
+          },
+          {
+            nomCommune: ILike(`%${search}%`),
+            codeDepartement: ILike(`${codeDepartement}`),
+            codeCirconscription: ILike(`%${codeCirconscription}%`),
+          },
+        ],
+      });
+    }
+
+    if (codeDepartement) {
+      return this.annuaireRepository.find({
+        where: [
+          { nomEtablissement: ILike(`%${search}%`), codeDepartement: ILike(`${codeDepartement}`) },
+          { nomCommune: ILike(`%${search}%`), codeDepartement: ILike(`${codeDepartement}`) },
+        ],
+      });
+    }
+
+    if (codeCirconscription) {
+      return this.annuaireRepository.find({
+        where: [
+          { nomEtablissement: ILike(`%${search}%`), codeCirconscription: ILike(`${codeCirconscription}`) },
+          { nomCommune: ILike(`%${search}%`), codeCirconscription: ILike(`${codeCirconscription}`) },
+        ],
+      });
+    }
     return this.annuaireRepository.find({
       where: [{ nomEtablissement: ILike(`%${search}%`) }, { nomCommune: ILike(`%${search}%`) }],
     });
