@@ -6,8 +6,13 @@ export class AnnuaireController {
   constructor(private readonly annuaireService: AnnuaireService) {}
 
   @Get()
-  findAll(@Query('page') page: number) {
-    return this.annuaireService.findAll(page);
+  findAll(
+    @Query('id') id: string | null,
+    @Query('limit') limit: number | null,
+    @Query('codeDepartement') codeDepartement: string | null,
+    @Query('codeCirconscription') codeCirconscription: string | null
+  ) {
+    return this.annuaireService.findAll(id, limit, codeDepartement, codeCirconscription);
   }
 
   @Get('search')

@@ -10,12 +10,18 @@ export class AnnuaireService {
     private annuaireRepository: Repository<Annuaire>
   ) {}
 
-  findAll(page: number) {
-    const skip = page * 20;
-    return this.annuaireRepository.find({
-      take: 10,
-      skip,
-    });
+  findAll(id: string | null, limit: number | null, codeDepartement: string | null, codeCirconscription: string | null) {
+    if (id)
+      return this.annuaireRepository.find({
+        where: { identifiantDeLEtablissement: id },
+      });
+    if (limit) return this.annuaireRepository.find({ take: limit });
+    if (codeDepartement && codeCirconscription)
+      return this.annuaireRepository.find({
+        where: [{ codeDepartement: ILike(`${codeDepartement}`), codeCirconscription: ILike(`${codeCirconscription}`) }],
+      });
+    if (codeDepartement) return this.annuaireRepository.find({ where: [{ codeDepartement: ILike(`${codeDepartement}`) }] });
+    if (codeCirconscription) return this.annuaireRepository.find({ where: [{ codeCirconscription: ILike(`${codeCirconscription}`) }] });
   }
 
   search(search: string, codeDepartement?: string, codeCirconscription?: string) {
@@ -59,12 +65,7 @@ export class AnnuaireService {
   }
 
   departements() {
-    return this.annuaireRepository
-      .createQueryBuilder('annuaire')
-      .select(['annuaire.codeDepartement', 'annuaire.libelleDepartement'])
-      .distinctOn(['annuaire.codeDepartement'])
-      .orderBy({ 'annuaire.codeDepartement': 'ASC' })
-      .getMany();
+    return this.annuaireRepository.createQueryBuilder('annuaire').select(['annuaire.codeDepartement', 'annuaire.libelleDepartement']).distinctOn(['annuaire.codeDepartement']).orderBy({ 'annuaire.codeDepartement': 'ASC' }).getMany();
   }
 
   circonscriptions() {

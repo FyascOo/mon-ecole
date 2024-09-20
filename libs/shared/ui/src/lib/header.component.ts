@@ -1,6 +1,6 @@
-import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, effect, inject } from '@angular/core';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
-import { AnnuaireStore } from '@mon-ecole/annuaire';
+import { AnnuaireStore, Circonscription, Departement } from '@mon-ecole/annuaire';
 
 @Component({
   selector: 'ui-header',
@@ -15,7 +15,10 @@ import { AnnuaireStore } from '@mon-ecole/annuaire';
         <a class="btn btn-ghost text-xl">Mon école</a>
       </div>
       <div class="navbar-end flex-1">
-        <select [formControl]="departementFC" class="select select-bordered w-full max-w-xs">
+        <select
+          [formControl]="departementFC"
+          [compareWith]="compareDepartement"
+          class="select select-bordered w-full max-w-xs">
           <option selected [ngValue]="null">Département</option>
           @for (departement of annuaireStore.filterDepartements(); track $index) {
           <option [ngValue]="departement">
@@ -23,7 +26,10 @@ import { AnnuaireStore } from '@mon-ecole/annuaire';
           </option>
           }
         </select>
-        <select [formControl]="circonscriptionFC" class="select select-bordered w-full max-w-xs">
+        <select
+          [formControl]="circonscriptionFC"
+          [compareWith]="compareCirconscription"
+          class="select select-bordered w-full max-w-xs">
           <option selected [ngValue]="null">Circonscription</option>
           @for (circonscription of annuaireStore.filterCirconscriptions(); track $index) {
           <option [ngValue]="circonscription">
@@ -45,5 +51,18 @@ export class HeaderComponent {
   constructor() {
     this.annuaireStore.departementChanges(this.departementFC.valueChanges);
     this.annuaireStore.circonscriptionChanges(this.circonscriptionFC.valueChanges);
+
+    effect(() => {
+      this.departementFC.setValue(this.annuaireStore.selectedDepartement());
+      this.circonscriptionFC.setValue(this.annuaireStore.selectedCirconscription());
+    });
+  }
+
+  compareDepartement(a: Departement | null, b: Departement | null) {
+    return a?.codeDepartement === b?.codeDepartement;
+  }
+
+  compareCirconscription(a: Circonscription | null, b: Circonscription | null) {
+    return a?.codeCirconscription === b?.codeCirconscription;
   }
 }

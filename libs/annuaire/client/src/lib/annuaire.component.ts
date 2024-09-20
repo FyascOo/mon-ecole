@@ -14,7 +14,7 @@ import { FormControl, ReactiveFormsModule } from '@angular/forms';
     <div class="drawer md:drawer-open">
       <input #drawer id="my-drawer-2" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content flex flex-col p-4 justify-center">
-        @if(this.annuaireStore.ecole()) {
+        @if(annuaireStore.ecole()) {
         <lib-ecole />
         } @else {
         <span class="flex justify-center">Aucune école séléctionné</span>

@@ -35,7 +35,7 @@ export const AnnuaireStore = signalStore(
   withComputed(
     ({ ecoles, selectedEcoleId, departements, selectedDepartement, circonscriptions, selectedCirconscription }) => ({
       ecole: computed(() => {
-        return ecoles().find(ecole => ecole.identifiantDeLEtablissement === selectedEcoleId())!;
+        return ecoles()?.find(ecole => ecole.identifiantDeLEtablissement === selectedEcoleId())!;
       }),
       filterDepartements: computed(() => {
         return selectedCirconscription()
@@ -51,6 +51,7 @@ export const AnnuaireStore = signalStore(
   ),
   withMethods((store, annuaireService = inject(AnnuaireService)) => ({
     setSelectedEcoleId: (selectedEcoleId: string) => {
+      localStorage.setItem('selectedEcoleId', selectedEcoleId);
       patchState(store, () => ({ selectedEcoleId }));
     },
     openChanges: () => {
@@ -61,7 +62,11 @@ export const AnnuaireStore = signalStore(
         tap(() => patchState(store, { isLoading: true })),
         switchMap(() => {
           return forkJoin([
-            annuaireService.getEcoles(),
+            annuaireService.getEcoles(
+              store.selectedEcoleId(),
+              store.selectedDepartement(),
+              store.selectedCirconscription()
+            ),
             annuaireService.departements(),
             annuaireService.circonscriptions(),
           ]).pipe(
@@ -97,13 +102,40 @@ export const AnnuaireStore = signalStore(
       )
     ),
     departementChanges: rxMethod<Departement>(
-      pipe(tap(selectedDepartement => patchState(store, { selectedDepartement })))
+      pipe(
+        tap(selectedDepartement => patchState(store, { selectedDepartement })),
+        tap(selectedDepartement => {
+          localStorage.setItem('selectedDepartement', JSON.stringify(selectedDepartement));
+        })
+      )
     ),
     circonscriptionChanges: rxMethod<Circonscription>(
-      pipe(tap(selectedCirconscription => patchState(store, { selectedCirconscription })))
+      pipe(
+        tap(selectedCirconscription => patchState(store, { selectedCirconscription })),
+        tap(selectedCirconscription =>
+          localStorage.setItem('selectedCirconscription', JSON.stringify(selectedCirconscription))
+        )
+      )
     ),
+    syncDepartement: () => {
+      const selectedDepartement = localStorage.getItem('selectedDepartement');
+      if (selectedDepartement) patchState(store, { selectedDepartement: JSON.parse(selectedDepartement) });
+    },
+    syncCirconscription: () => {
+      const selectedCirconscription = localStorage.getItem('selectedCirconscription');
+      if (selectedCirconscription) patchState(store, { selectedCirconscription: JSON.parse(selectedCirconscription) });
+    },
+    syncSelectedEcoleId: () => {
+      const selectedEcoleId = localStorage.getItem('selectedEcoleId');
+      if (selectedEcoleId) patchState(store, { selectedEcoleId });
+    },
   })),
   withHooks({
-    onInit: store => store.initialLoad(),
+    onInit: store => {
+      store.syncSelectedEcoleId();
+      store.syncDepartement();
+      store.syncCirconscription();
+      store.initialLoad();
+    },
   })
 );

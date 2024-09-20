@@ -9,11 +9,15 @@ import { Circonscription, Departement } from './annuaire.store';
 export class AnnuaireService {
   #http = inject(HttpClient);
 
-  getEcoles() {
+  getEcoles(id: string | null, departement: Departement | null, circonscription: Circonscription | null) {
+    console.log('http', id);
+    let params = {};
+    if (id) params = { id };
+    if (departement) params = { ...params, codeDepartement: departement.codeDepartement };
+    if (circonscription) params = { ...params, codeCirconscription: circonscription.codeCirconscription };
+    if (!id && !departement && !circonscription) params = { limit: 10 };
     return this.#http.get<Annuaire[]>('http://127.0.0.1:3000/api/annuaire', {
-      params: {
-        page: 0,
-      },
+      params,
     });
   }
 
