@@ -23,7 +23,7 @@
         "assets": [
           "apps/mon-ecole-front/src/favicon.ico",
           "apps/mon-ecole-front/src/assets",
-          "apps/mon-ecole-front/public/manifest.webmanifest"
+          "apps/mon-ecole-front/src/manifest.webmanifest"
         ],
         "styles": [
           "apps/mon-ecole-front/src/styles.scss",

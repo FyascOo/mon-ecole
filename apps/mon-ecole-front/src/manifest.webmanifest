@@ -1,6 +1,6 @@
 {
-  "name": "mon-ecole-front",
-  "short_name": "mon-ecole-front",
+  "name": "mon-ecole",
+  "short_name": "mon-ecole",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
