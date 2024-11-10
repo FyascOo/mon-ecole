@@ -86,12 +86,12 @@ export const AnnuaireStore = signalStore(
       pipe(
         debounceTime(500),
         distinctUntilChanged(),
-        filter(search => !!search),
+        filter((search: string | null) => !!search),
         tap(() => patchState(store, { isLoading: true })),
-        switchMap(search => {
-          return annuaireService.search(search!, store.selectedDepartement(), store.selectedCirconscription()).pipe(
+        switchMap((search: string) => {
+          return annuaireService.search(search, store.selectedDepartement(), store.selectedCirconscription()).pipe(
             tapResponse({
-              next: ecoles => patchState(store, { ecoles, isLoading: false }),
+              next: (ecoles: Annuaire[]) => patchState(store, { ecoles, isLoading: false }),
               error: err => {
                 patchState(store, { isLoading: false });
                 console.error(err);
@@ -103,16 +103,16 @@ export const AnnuaireStore = signalStore(
     ),
     departementChanges: rxMethod<Departement>(
       pipe(
-        tap(selectedDepartement => patchState(store, { selectedDepartement })),
-        tap(selectedDepartement => {
+        tap((selectedDepartement: Departement) => patchState(store, { selectedDepartement })),
+        tap((selectedDepartement: Departement) => {
           localStorage.setItem('selectedDepartement', JSON.stringify(selectedDepartement));
         })
       )
     ),
     circonscriptionChanges: rxMethod<Circonscription>(
       pipe(
-        tap(selectedCirconscription => patchState(store, { selectedCirconscription })),
-        tap(selectedCirconscription =>
+        tap((selectedCirconscription: Circonscription) => patchState(store, { selectedCirconscription })),
+        tap((selectedCirconscription: Circonscription) =>
           localStorage.setItem('selectedCirconscription', JSON.stringify(selectedCirconscription))
         )
       )

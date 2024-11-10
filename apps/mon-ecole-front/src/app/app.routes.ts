@@ -5,8 +5,4 @@ export const appRoutes: Route[] = [
     path: '',
     loadComponent: () => import('@mon-ecole/annuaire').then(c => c.AnnuaireComponent),
   },
-  {
-    path: ':id',
-    loadComponent: () => import('@mon-ecole/annuaire').then(c => c.EcoleComponent),
-  },
 ];

@@ -1,0 +1,1002 @@
+[NX Daemon Server] - 2024-11-10T13:30:28.076Z - Started listening on: /var/folders/t0/0fq9zfss5hqfknc3gcj2b0cm0000gn/T/cd06e4062e153ae93197/d.sock
+[NX Daemon Server] - 2024-11-10T13:30:28.078Z - [WATCHER]: Subscribed to changes within: /Users/fiasco/Documents/Projet/mon-ecole (native)
+[NX Daemon Server] - 2024-11-10T13:30:28.079Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:30:28.080Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:30:28.081Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:30:28.081Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-10T13:30:28.081Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-10T13:30:28.082Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-10T13:30:28.083Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (sources)
+[NX Daemon Server] - 2024-11-10T13:30:28.083Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-10T13:30:28.083Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (outputs)
+[NX Daemon Server] - 2024-11-10T13:30:47.039Z - Started listening on: /tmp/cd06e4062e153ae93197/d.sock
+[NX Daemon Server] - 2024-11-10T13:30:47.040Z - [WATCHER]: Subscribed to changes within: /Users/fiasco/Documents/Projet/mon-ecole (native)
+[NX Daemon Server] - 2024-11-10T13:30:47.041Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:30:47.042Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-10T13:30:47.042Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:30:47.043Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-10T13:30:47.044Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-10T13:30:47.044Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-10T13:30:47.045Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (sources)
+[NX Daemon Server] - 2024-11-10T13:30:47.046Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-10T13:30:47.046Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (outputs)
+[NX Daemon Server] - 2024-11-10T13:34:11.354Z - Started listening on: /tmp/cd06e4062e153ae93197/d.sock
+[NX Daemon Server] - 2024-11-10T13:34:11.357Z - [WATCHER]: Subscribed to changes within: /Users/fiasco/Documents/Projet/mon-ecole (native)
+[NX Daemon Server] - 2024-11-10T13:34:11.358Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:11.359Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:11.360Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:11.361Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-10T13:34:11.361Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-10T13:34:11.361Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:11.361Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (sources)
+[NX Daemon Server] - 2024-11-10T13:34:11.362Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-10T13:34:11.362Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (outputs)
+[NX Daemon Server] - 2024-11-10T13:34:39.282Z - Started listening on: /tmp/cd06e4062e153ae93197/d.sock
+[NX Daemon Server] - 2024-11-10T13:34:39.284Z - [WATCHER]: Subscribed to changes within: /Users/fiasco/Documents/Projet/mon-ecole (native)
+[NX Daemon Server] - 2024-11-10T13:34:39.284Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:39.285Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:39.286Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:39.286Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-10T13:34:39.286Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-10T13:34:39.286Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:39.288Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (sources)
+[NX Daemon Server] - 2024-11-10T13:34:39.288Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-10T13:34:39.288Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (outputs)
+[NX Daemon Server] - 2024-11-10T13:34:42.395Z - Started listening on: /tmp/cd06e4062e153ae93197/d.sock
+[NX Daemon Server] - 2024-11-10T13:34:42.397Z - [WATCHER]: Subscribed to changes within: /Users/fiasco/Documents/Projet/mon-ecole (native)
+[NX Daemon Server] - 2024-11-10T13:34:42.406Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:42.406Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:42.407Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:42.408Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-10T13:34:42.408Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-10T13:34:42.408Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:42.410Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (sources)
+[NX Daemon Server] - 2024-11-10T13:34:42.410Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-10T13:34:42.410Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (outputs)
+[NX Daemon Server] - 2024-11-10T13:34:42.874Z - Started listening on: /var/folders/t0/0fq9zfss5hqfknc3gcj2b0cm0000gn/T/cd06e4062e153ae93197/d.sock
+[NX Daemon Server] - 2024-11-10T13:34:42.876Z - [WATCHER]: Subscribed to changes within: /Users/fiasco/Documents/Projet/mon-ecole (native)
+[NX Daemon Server] - 2024-11-10T13:34:42.886Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:42.886Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:42.887Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:42.888Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-10T13:34:42.936Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-10T13:34:43.226Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-10T13:34:43.226Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:43.226Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:43.235Z - Time taken for 'loadNxPlugins' 337.269542ms
+[NX Daemon Server] - 2024-11-10T13:34:43.235Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:43.235Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-10T13:34:43.235Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:43.236Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-10T13:34:43.236Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:43.236Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-10T13:34:43.237Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.237Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.237Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.237Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-11-10T13:34:43.238Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-10T13:34:43.238Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-11-10T13:34:43.238Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.239Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.239Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-10T13:34:43.240Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.240Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.240Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.313Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.313Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.313Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-10T13:34:43.313Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.313Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.313Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.739Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.739Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.739Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.740Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.740Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.740Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.740Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.740Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.740Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.741Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.741Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.741Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.741Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.741Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.741Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.742Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.742Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.742Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.754Z - Time taken for 'build-project-configs' 516.886458ms
+[NX Daemon Server] - 2024-11-10T13:34:43.780Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/webpack/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:19:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:40:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/playwright/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:20:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:33:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/eslint/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:29:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:161:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-11-10T13:34:43.782Z - Time taken for 'total execution time for createProjectGraph()' 27.814124999999876ms
+[NX Daemon Server] - 2024-11-10T13:34:43.784Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-10T13:34:43.784Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 891. Response time: 5.
+[NX Daemon Server] - 2024-11-10T13:34:43.787Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-11-10T13:34:43.787Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-11-10T13:34:43.787Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.788Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-10T13:34:43.905Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-11-10T13:34:43.905Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-11-10T13:34:43.905Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-11-10T13:34:43.906Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-10T13:34:43.906Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-10T13:34:43.906Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:43.906Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:43.914Z - Time taken for 'hash changed files from watcher' 0.10558299999979681ms
+[NX Daemon Server] - 2024-11-10T13:34:43.915Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.915Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.915Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.915Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.916Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.916Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-10T13:34:43.916Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.916Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.916Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.917Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.917Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.917Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.917Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.917Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.917Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.918Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.918Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.918Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.918Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.918Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.918Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.919Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.919Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.919Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.919Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.919Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.919Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.919Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.920Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.920Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-10T13:34:43.920Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.920Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.920Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.924Z - Time taken for 'build-project-configs' 11.802832999999964ms
+[NX Daemon Server] - 2024-11-10T13:34:43.940Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/playwright/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:20:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:33:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/webpack/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:19:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:40:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/eslint/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:29:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:161:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-11-10T13:34:43.942Z - Time taken for 'total execution time for createProjectGraph()' 15.909625000000005ms
+[NX Daemon Server] - 2024-11-10T13:34:43.943Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-10T13:34:43.943Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 34. Response time: 3.
+[NX Daemon Server] - 2024-11-10T13:34:43.946Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-10T13:34:43.949Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-10T13:34:43.949Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:43.949Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:43.953Z - Time taken for 'hash changed files from watcher' 3.029666000000134ms
+[NX Daemon Server] - 2024-11-10T13:34:43.954Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.954Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.954Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.955Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.955Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.955Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.956Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.956Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.956Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.957Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.957Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.957Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.958Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.958Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.958Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.959Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.959Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.959Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.959Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.959Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.959Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.960Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.960Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.960Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.960Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.960Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.960Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.961Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.961Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.961Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.961Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.961Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:43.961Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:43.966Z - Time taken for 'build-project-configs' 13.96491600000013ms
+[NX Daemon Server] - 2024-11-10T13:34:43.981Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/playwright/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:20:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:33:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/webpack/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:19:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:40:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/eslint/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:29:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:161:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-11-10T13:34:43.983Z - Time taken for 'total execution time for createProjectGraph()' 15.497417000000041ms
+[NX Daemon Server] - 2024-11-10T13:34:43.984Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-10T13:34:43.984Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 35. Response time: 3.
+[NX Daemon Server] - 2024-11-10T13:34:43.986Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-11-10T13:34:54.988Z - Started listening on: /tmp/cd06e4062e153ae93197/d.sock
+[NX Daemon Server] - 2024-11-10T13:34:54.989Z - [WATCHER]: Subscribed to changes within: /Users/fiasco/Documents/Projet/mon-ecole (native)
+[NX Daemon Server] - 2024-11-10T13:34:54.990Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:54.990Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:54.991Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:54.992Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-10T13:34:54.992Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-10T13:34:54.992Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:54.994Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (sources)
+[NX Daemon Server] - 2024-11-10T13:34:54.994Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-10T13:34:54.994Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (outputs)
+[NX Daemon Server] - 2024-11-10T13:34:55.050Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-11-10T13:34:55.050Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-10T13:34:55.050Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:55.050Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:55.050Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-10T13:34:55.050Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (sources)
+[NX Daemon Server] - 2024-11-10T13:34:55.051Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (outputs)
+[NX Daemon Server] - 2024-11-10T13:34:55.051Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-11-10T13:34:55.286Z - Started listening on: /var/folders/t0/0fq9zfss5hqfknc3gcj2b0cm0000gn/T/cd06e4062e153ae93197/d.sock
+[NX Daemon Server] - 2024-11-10T13:34:55.288Z - [WATCHER]: Subscribed to changes within: /Users/fiasco/Documents/Projet/mon-ecole (native)
+[NX Daemon Server] - 2024-11-10T13:34:55.297Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:55.297Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:55.298Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:55.298Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-10T13:34:55.349Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-10T13:34:55.560Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-10T13:34:55.560Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:55.560Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:55.569Z - Time taken for 'loadNxPlugins' 260.682459ms
+[NX Daemon Server] - 2024-11-10T13:34:55.570Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:55.570Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-10T13:34:55.570Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:55.570Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-10T13:34:55.571Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.571Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.571Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.571Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-11-10T13:34:55.571Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-10T13:34:55.571Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-11-10T13:34:55.572Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.572Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.572Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.572Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-11-10T13:34:55.573Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-11-10T13:34:55.574Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.574Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.574Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.648Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.648Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.648Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.649Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.649Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.649Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.650Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.651Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.651Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-10T13:34:55.651Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.651Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.651Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.652Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.652Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.652Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.652Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.652Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.652Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.653Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.653Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.653Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.653Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.653Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.653Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.672Z - Time taken for 'build-project-configs' 100.84920799999998ms
+[NX Daemon Server] - 2024-11-10T13:34:55.698Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/playwright/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:20:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:33:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/webpack/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:19:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:40:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/eslint/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:29:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:161:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-11-10T13:34:55.701Z - Time taken for 'total execution time for createProjectGraph()' 28.237499999999955ms
+[NX Daemon Server] - 2024-11-10T13:34:55.702Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-10T13:34:55.702Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 400. Response time: 4.
+[NX Daemon Server] - 2024-11-10T13:34:55.705Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-10T13:34:55.705Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-10T13:34:55.705Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:55.705Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:55.712Z - Time taken for 'hash changed files from watcher' 0.09474999999997635ms
+[NX Daemon Server] - 2024-11-10T13:34:55.713Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.713Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.713Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.714Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.714Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.714Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.714Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.714Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.714Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.715Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.715Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.715Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.716Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.716Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.716Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.716Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.716Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.716Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.717Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.717Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.717Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.718Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.718Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.718Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.718Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.718Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.718Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.719Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.719Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.719Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.719Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.719Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:55.719Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:55.724Z - Time taken for 'build-project-configs' 13.685166999999979ms
+[NX Daemon Server] - 2024-11-10T13:34:55.741Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/playwright/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:20:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:33:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/webpack/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:19:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:40:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/eslint/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:29:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:161:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-11-10T13:34:55.744Z - Time taken for 'total execution time for createProjectGraph()' 17.218874999999912ms
+[NX Daemon Server] - 2024-11-10T13:34:55.745Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-10T13:34:55.745Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 36. Response time: 4.
+[NX Daemon Server] - 2024-11-10T13:34:55.747Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-11-10T13:34:56.097Z - [WATCHER]: package-lock.json was modified
+[NX Daemon Server] - 2024-11-10T13:34:56.098Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-11-10T13:34:56.098Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-11-10T13:34:56.098Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:56.098Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-10T13:34:56.098Z - Time taken for 'changed-projects' 0.0901250000000573ms
+[NX Daemon Server] - 2024-11-10T13:34:56.200Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-10T13:34:56.200Z - [REQUEST]: package-lock.json
+[NX Daemon Server] - 2024-11-10T13:34:56.200Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:56.205Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.205Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.205Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:56.206Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.206Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.206Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:56.208Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.208Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.208Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:56.208Z - Time taken for 'hash changed files from watcher' 0.24945900000011534ms
+[NX Daemon Server] - 2024-11-10T13:34:56.209Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.209Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.209Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:56.211Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.211Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.211Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:56.211Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.212Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.212Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-10T13:34:56.212Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.212Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.212Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:56.213Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.213Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.213Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:56.213Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.213Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.213Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:56.214Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.214Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.214Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:56.214Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.214Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:56.214Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:56.219Z - Time taken for 'build-project-configs' 16.448874999999816ms
+[NX Daemon Server] - 2024-11-10T13:34:56.234Z - Time taken for 'total execution time for createProjectGraph()' 14.732874999999922ms
+[NX Daemon Server] - 2024-11-10T13:34:57.101Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-10T13:34:57.102Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-10T13:34:57.102Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:57.102Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:57.109Z - Time taken for 'hash changed files from watcher' 0.09237499999994725ms
+[NX Daemon Server] - 2024-11-10T13:34:57.110Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.110Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.110Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.110Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.110Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.110Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.111Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.111Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.111Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.112Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.112Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.112Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.112Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.112Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.112Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.113Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.113Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.113Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.113Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.113Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.113Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.114Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.114Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.114Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.114Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.114Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.114Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.115Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.115Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.115Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.116Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.116Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.116Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.120Z - Time taken for 'build-project-configs' 12.661084000000074ms
+[NX Daemon Server] - 2024-11-10T13:34:57.136Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/playwright/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:20:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:33:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/webpack/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:19:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:40:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/eslint/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:29:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:161:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-11-10T13:34:57.138Z - Time taken for 'total execution time for createProjectGraph()' 16.510166000000027ms
+[NX Daemon Server] - 2024-11-10T13:34:57.141Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-10T13:34:57.141Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 35. Response time: 5.
+[NX Daemon Server] - 2024-11-10T13:34:57.143Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-11-10T13:34:57.144Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-11-10T13:34:57.144Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-10T13:34:57.144Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-11-10T13:34:57.173Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-10T13:34:57.173Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-11-10T13:34:57.173Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-11-10T13:34:57.173Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-11-10T13:34:57.174Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-10T13:34:57.174Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-10T13:34:57.174Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:57.174Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:57.183Z - Time taken for 'hash changed files from watcher' 0.0907919999999649ms
+[NX Daemon Server] - 2024-11-10T13:34:57.183Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.183Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.183Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.184Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.185Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.185Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-11-10T13:34:57.186Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.186Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.186Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.187Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.187Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.187Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.188Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.188Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.188Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.188Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.188Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.188Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.189Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.189Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.189Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.189Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.189Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.189Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.190Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.190Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.190Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.191Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.191Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.191Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.191Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.191Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.191Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.196Z - Time taken for 'build-project-configs' 15.696875000000091ms
+[NX Daemon Server] - 2024-11-10T13:34:57.211Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/playwright/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:20:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:33:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/webpack/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:19:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:40:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/eslint/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:29:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:161:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-11-10T13:34:57.214Z - Time taken for 'total execution time for createProjectGraph()' 16.372583000000077ms
+[NX Daemon Server] - 2024-11-10T13:34:57.215Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-10T13:34:57.215Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 37. Response time: 4.
+[NX Daemon Server] - 2024-11-10T13:34:57.218Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-10T13:34:57.218Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-10T13:34:57.218Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:57.218Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:57.224Z - Time taken for 'hash changed files from watcher' 0.09149999999999636ms
+[NX Daemon Server] - 2024-11-10T13:34:57.225Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.225Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.225Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.225Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.226Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.226Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-10T13:34:57.226Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.226Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.226Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.227Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.227Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.227Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.227Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.227Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.227Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.228Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.228Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.228Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.229Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.229Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.229Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.229Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.229Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.229Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.230Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.230Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.230Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.230Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.230Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.230Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.231Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.231Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:57.231Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:57.235Z - Time taken for 'build-project-configs' 11.647832999999764ms
+[NX Daemon Server] - 2024-11-10T13:34:57.251Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/playwright/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:20:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:33:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/webpack/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:19:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:40:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/eslint/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:29:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:161:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-11-10T13:34:57.254Z - Time taken for 'total execution time for createProjectGraph()' 16.06412500000033ms
+[NX Daemon Server] - 2024-11-10T13:34:57.255Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-10T13:34:57.255Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 33. Response time: 4.
+[NX Daemon Server] - 2024-11-10T13:34:57.258Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-11-10T13:34:57.823Z - Started listening on: /tmp/cd06e4062e153ae93197/d.sock
+[NX Daemon Server] - 2024-11-10T13:34:57.824Z - [WATCHER]: Subscribed to changes within: /Users/fiasco/Documents/Projet/mon-ecole (native)
+[NX Daemon Server] - 2024-11-10T13:34:57.832Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:57.832Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:57.833Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:57.834Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-11-10T13:34:57.834Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-11-10T13:34:57.834Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-10T13:34:57.835Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (sources)
+[NX Daemon Server] - 2024-11-10T13:34:57.836Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-10T13:34:57.836Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (outputs)
+[NX Daemon Server] - 2024-11-10T13:34:57.885Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-11-10T13:34:57.885Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-10T13:34:57.885Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:57.885Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:57.885Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-10T13:34:57.885Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (sources)
+[NX Daemon Server] - 2024-11-10T13:34:57.885Z - [WATCHER]: Stopping the watcher for /Users/fiasco/Documents/Projet/mon-ecole (outputs)
+[NX Daemon Server] - 2024-11-10T13:34:57.886Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2024-11-10T13:34:58.150Z - Started listening on: /var/folders/t0/0fq9zfss5hqfknc3gcj2b0cm0000gn/T/cd06e4062e153ae93197/d.sock
+[NX Daemon Server] - 2024-11-10T13:34:58.151Z - [WATCHER]: Subscribed to changes within: /Users/fiasco/Documents/Projet/mon-ecole (native)
+[NX Daemon Server] - 2024-11-10T13:34:58.162Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:58.162Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:58.163Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-10T13:34:58.163Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-10T13:34:58.213Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-10T13:34:58.450Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-10T13:34:58.450Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:58.450Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:58.459Z - Time taken for 'loadNxPlugins' 285.834584ms
+[NX Daemon Server] - 2024-11-10T13:34:58.459Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:58.459Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-10T13:34:58.459Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-10T13:34:58.460Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-10T13:34:58.461Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.461Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.461Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.461Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-11-10T13:34:58.461Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-11-10T13:34:58.461Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-11-10T13:34:58.462Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.462Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.462Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.462Z - Established a connection. Number of open connections: 5
+[NX Daemon Server] - 2024-11-10T13:34:58.462Z - Closed a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-11-10T13:34:58.463Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.463Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.463Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.524Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.524Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.524Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.525Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.525Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.525Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.525Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.525Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.525Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.526Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.526Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.526Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.526Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.526Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.526Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.527Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.527Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.527Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.528Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.528Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.528Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.528Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.528Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.528Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.545Z - Time taken for 'build-project-configs' 84.82333299999999ms
+[NX Daemon Server] - 2024-11-10T13:34:58.568Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/playwright/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:20:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:33:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/webpack/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:19:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:40:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/eslint/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:29:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:161:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-11-10T13:34:58.571Z - Time taken for 'total execution time for createProjectGraph()' 24.822458000000097ms
+[NX Daemon Server] - 2024-11-10T13:34:58.572Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-10T13:34:58.572Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 405. Response time: 4.
+[NX Daemon Server] - 2024-11-10T13:34:58.574Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-10T13:34:58.574Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-10T13:34:58.574Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:58.574Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-10T13:34:58.581Z - Time taken for 'hash changed files from watcher' 0.09908399999994799ms
+[NX Daemon Server] - 2024-11-10T13:34:58.582Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.582Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.582Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.582Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.583Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.583Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-10T13:34:58.583Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.583Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.583Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.584Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.584Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.584Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.584Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.584Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.584Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.585Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.585Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.585Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.585Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.586Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.586Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-10T13:34:58.586Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.586Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.586Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.586Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.587Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.587Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-10T13:34:58.587Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.587Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.587Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.587Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.587Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-11-10T13:34:58.587Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-11-10T13:34:58.594Z - Time taken for 'build-project-configs' 13.352499999999964ms
+[NX Daemon Server] - 2024-11-10T13:34:58.610Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+      An error occurred while processing files for the @nx/playwright/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/playwright-5186013267177752385.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:20:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/playwright/src/plugins/plugin.js:33:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/webpack/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/webpack-17957109288680152952.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:19:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/webpack/src/plugins/plugin.js:40:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+    An error occurred while processing files for the @nx/eslint/plugin plugin.
+    - EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+      Error: EACCES: permission denied, open '/Users/fiasco/Documents/Projet/mon-ecole/.nx/workspace-data/eslint-4393011795395336301.hash'
+          at writeFileSync (node:fs:2389:20)
+          at writeJsonFile (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/utils/fileutils.js:63:33)
+          at writeTargetsToCache (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:29:32)
+          at exports.createNodesV2 (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/@nx/eslint/src/plugins/plugin.js:161:13)
+          at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+          at async LoadedNxPlugin.createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:34:36)
+          at async LoadedNxPlugin.createNodes.<computed> (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/internal-api.js:44:28)
+          at async createNodes (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:69:36)
+          at async consumeMessage (/Users/fiasco/Documents/Projet/mon-ecole/node_modules/nx/src/project-graph/plugins/isolation/messaging.js:38:26)
+[NX Daemon Server] - 2024-11-10T13:34:58.612Z - Time taken for 'total execution time for createProjectGraph()' 17.201333999999974ms
+[NX Daemon Server] - 2024-11-10T13:34:58.613Z - Done responding to the client null
+[NX Daemon Server] - 2024-11-10T13:34:58.613Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 36. Response time: 3.
+[NX Daemon Server] - 2024-11-10T13:34:58.615Z - Established a connection. Number of open connections: 5
