@@ -5,12 +5,16 @@ import { AnnuaireStore } from './annuaire.store';
 import { EcoleComponent } from './ecole.component';
 
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
+import { DialogComponent } from '@mon-ecole/shared-ui';
 
 @Component({
   selector: 'lib-annuaire',
   standalone: true,
-  imports: [AsyncPipe, JsonPipe, EcoleComponent, ReactiveFormsModule],
+  imports: [AsyncPipe, JsonPipe, EcoleComponent, ReactiveFormsModule, DialogComponent],
   template: `
+    @if (!annuaireStore.hasSelectedDepartement()) {
+    <ui-dialog />
+    }
     <div class="drawer md:drawer-open">
       <input #drawer id="my-drawer-2" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content flex flex-col p-4 justify-center">
@@ -23,7 +27,7 @@ import { FormControl, ReactiveFormsModule } from '@angular/forms';
       </div>
       <div class="drawer-side">
         <label for="my-drawer-2" aria-label="close sidebar" class="drawer-overlay"></label>
-        <ul class="bg-base-200 text-base-content min-h-full w-80 p-4">
+        <ul class="bg-base-200 text-base-content min-h-full w-60 p-4">
           <input
             type="text"
             [formControl]="search"

@@ -7,12 +7,12 @@ import { AnnuaireStore, Circonscription, Departement } from '@mon-ecole/annuaire
   standalone: true,
   imports: [ReactiveFormsModule],
   template: `
-    <div class="navbar bg-neutral flex">
+    <div class="navbar bg-base-100 flex shadow">
       <div class="content-start">
         <ng-content></ng-content>
       </div>
       <div class=" max-md:hidden navbar-center flex justify-center">
-        <a class="btn btn-ghost text-xl">Mon école</a>
+        <a class="btn btn-ghost text-xl">École</a>
       </div>
       <div class="navbar-end flex-1">
         <select

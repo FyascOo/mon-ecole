@@ -37,19 +37,30 @@ export class PhonePipe implements PipeTransform {
       <div class="divider"></div>
       <span>{{ store.ecole().nomCirconscription ?? 'Circonscription non renseignée' }}</span>
       <div class="divider"></div>
-      <div class="flex flex-col">
-        <p>Adresse : {{ store.ecole().adresse1 }}</p>
-        <p>Code postal : {{ store.ecole().codePostal }}</p>
-        <p>Ville : {{ store.ecole().nomCommune }}</p>
-        <p>
-          <a class="flex items-center" href="mailto:alan.choufa@gmail.com">
-            Adresse mail : {{ store.ecole().mail }}
+      <div class="flex flex-col gap-2">
+        <p class="flex flex-col">
+          <span class="text-slate-400 text-xs">Adresse</span>
+          <span>{{ store.ecole().adresse1 }}</span>
+        </p>
+        <p class="flex flex-col ">
+          <span class="text-slate-400 text-xs">Code postal</span>
+          <span>{{ store.ecole().codePostal }}</span>
+        </p>
+        <p class="flex flex-col">
+          <span class="text-slate-400 text-xs">Ville</span>
+          <span>{{ store.ecole().nomCommune }}</span>
+        </p>
+        <p class="flex flex-col">
+          <span class="text-slate-400 text-xs">Adresse mail</span>
+          <a class="flex items-center text-blue-800" [href]="'mailto:' + store.ecole().mail">
+            <span>{{ store.ecole().mail }}</span>
             <span class="ml-4 material-symbols-outlined">mail</span>
           </a>
         </p>
-        <p>
-          <a class="flex items-center" href="tel:{{ store.ecole().telephone }}">
-            Téléphone : {{ store.ecole().telephone | phone }}
+        <p class="flex flex-col">
+          <span class="text-slate-400 text-xs">Téléphone</span>
+          <a class="flex items-center text-green-800" href="tel:{{ store.ecole().telephone }}">
+            <span>{{ store.ecole().telephone | phone }}</span>
             <span class="ml-4 material-symbols-outlined">call</span>
           </a>
         </p>
@@ -57,6 +68,14 @@ export class PhonePipe implements PipeTransform {
     </div>
 
     <div id="ol-map" (click)="openMaps()" class="grow h-80 cursor-pointer"></div>
+
+    <p class="flex flex-col mt-3">
+      <span class="text-slate-400 text-xs">Vous constatez une erreur ?</span>
+      <a class="flex items-center text-blue-800" href="mailto:admin@classeadeux.fr">
+        <span>Merci de nous contacter en cliquant ici.</span>
+        <span class="ml-4 material-symbols-outlined">mail</span>
+      </a>
+    </p>
   `,
   styles: ``,
   changeDetection: ChangeDetectionStrategy.OnPush,

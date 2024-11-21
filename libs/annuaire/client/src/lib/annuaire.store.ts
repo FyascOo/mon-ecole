@@ -47,6 +47,9 @@ export const AnnuaireStore = signalStore(
           ? circonscriptions().filter(c => c.codeDepartement === selectedDepartement()?.codeDepartement)
           : circonscriptions();
       }),
+      hasSelectedDepartement: computed(() => {
+        return selectedDepartement() !== null;
+      }),
     })
   ),
   withMethods((store, annuaireService = inject(AnnuaireService)) => ({
