@@ -25,16 +25,17 @@ export class AnnuaireService {
   }
 
   search(search: string, codeDepartement?: string, codeCirconscription?: string) {
+    if(search.includes(' ')) search = search.split(' ').map(s  => `%${s}%`).join(' ')
     if (codeDepartement && codeCirconscription) {
       return this.annuaireRepository.find({
         where: [
           {
-            nomEtablissement: ILike(`%${search}%`),
+            nomEtablissement: ILike(search),
             codeDepartement: ILike(`${codeDepartement}`),
             codeCirconscription: ILike(`%${codeCirconscription}%`),
           },
           {
-            nomCommune: ILike(`%${search}%`),
+            nomCommune: ILike(search),
             codeDepartement: ILike(`${codeDepartement}`),
             codeCirconscription: ILike(`%${codeCirconscription}%`),
           },
@@ -45,8 +46,8 @@ export class AnnuaireService {
     if (codeDepartement) {
       return this.annuaireRepository.find({
         where: [
-          { nomEtablissement: ILike(`%${search}%`), codeDepartement: ILike(`${codeDepartement}`) },
-          { nomCommune: ILike(`%${search}%`), codeDepartement: ILike(`${codeDepartement}`) },
+          { nomEtablissement: ILike(search), codeDepartement: ILike(`${codeDepartement}`) },
+          { nomCommune: ILike(search), codeDepartement: ILike(`${codeDepartement}`) },
         ],
       });
     }
@@ -54,13 +55,13 @@ export class AnnuaireService {
     if (codeCirconscription) {
       return this.annuaireRepository.find({
         where: [
-          { nomEtablissement: ILike(`%${search}%`), codeCirconscription: ILike(`${codeCirconscription}`) },
-          { nomCommune: ILike(`%${search}%`), codeCirconscription: ILike(`${codeCirconscription}`) },
+          { nomEtablissement: ILike(search), codeCirconscription: ILike(`${codeCirconscription}`) },
+          { nomCommune: ILike(search), codeCirconscription: ILike(`${codeCirconscription}`) },
         ],
       });
     }
     return this.annuaireRepository.find({
-      where: [{ nomEtablissement: ILike(`%${search}%`) }, { nomCommune: ILike(`%${search}%`) }],
+      where: [{ nomEtablissement: ILike(search) }, { nomCommune: ILike(search) }],
     });
   }
 

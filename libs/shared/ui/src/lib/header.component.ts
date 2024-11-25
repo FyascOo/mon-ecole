@@ -1,3 +1,4 @@
+import { SlicePipe } from '@angular/common';
 import { ChangeDetectionStrategy, Component, effect, inject } from '@angular/core';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { AnnuaireStore, Circonscription, Departement } from '@mon-ecole/annuaire';
@@ -5,32 +6,27 @@ import { AnnuaireStore, Circonscription, Departement } from '@mon-ecole/annuaire
 @Component({
   selector: 'ui-header',
   standalone: true,
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, SlicePipe],
   template: `
-    <div class="navbar bg-base-100 flex shadow">
+    <div class="navbar bg-base-100 flex shadow gap-5">
       <div class="content-start">
         <ng-content></ng-content>
       </div>
-      <div class=" max-md:hidden navbar-center flex justify-center">
-        <a class="btn btn-ghost text-xl">École</a>
-      </div>
-      <div class="navbar-end flex-1">
-        <select
-          [formControl]="departementFC"
-          [compareWith]="compareDepartement"
-          class="select select-bordered w-full max-w-xs">
-          <option selected [ngValue]="null">Département</option>
+      <div class=" navbar-center flex justify-center">
+        <span class="text-xl mr-5">École du</span>
+        <select [formControl]="departementFC" [compareWith]="compareDepartement" class="select select-bordered">
+          <option selected [ngValue]="null">-</option>
           @for (departement of annuaireStore.filterDepartements(); track $index) {
           <option [ngValue]="departement">
-            {{ departement.codeDepartement }} - {{ departement.libelleDepartement }}
+            {{ departement.codeDepartement | slice : 1 : 3 }}
           </option>
           }
         </select>
         <select
           [formControl]="circonscriptionFC"
           [compareWith]="compareCirconscription"
-          class="select select-bordered w-full max-w-xs">
-          <option selected [ngValue]="null">Circonscription</option>
+          class="max-sm:hidden select select-bordered max-w-xs">
+          <option selected [ngValue]="null">circonscription</option>
           @for (circonscription of annuaireStore.filterCirconscriptions(); track $index) {
           <option [ngValue]="circonscription">
             {{ circonscription.codeCirconscription }} - {{ circonscription.nomCirconscription }}

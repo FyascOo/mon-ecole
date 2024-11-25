@@ -65,17 +65,12 @@ export const AnnuaireStore = signalStore(
         tap(() => patchState(store, { isLoading: true })),
         switchMap(() => {
           return forkJoin([
-            annuaireService.getEcoles(
-              store.selectedEcoleId(),
-              store.selectedDepartement(),
-              store.selectedCirconscription()
-            ),
             annuaireService.departements(),
             annuaireService.circonscriptions(),
           ]).pipe(
             tapResponse({
-              next: ([ecoles, departements, circonscriptions]) =>
-                patchState(store, { ecoles, departements, circonscriptions, isLoading: false }),
+              next: ([departements, circonscriptions]) =>
+                patchState(store, { departements, circonscriptions, isLoading: false }),
               error: err => {
                 patchState(store, { isLoading: false });
                 console.error(err);
@@ -90,6 +85,7 @@ export const AnnuaireStore = signalStore(
         debounceTime(500),
         distinctUntilChanged(),
         filter((search: string | null) => !!search),
+        //@ts-ignore
         tap(() => patchState(store, { isLoading: true })),
         switchMap((search: string) => {
           return annuaireService.search(search, store.selectedDepartement(), store.selectedCirconscription()).pipe(

@@ -22,7 +22,7 @@ export class AnnuaireService {
   }
 
   search(search: string, departement: Departement | null, circonscription: Circonscription | null) {
-    let params: any = {
+    let params: { search: string; codeDepartement?: string; codeCirconscription?: string } = {
       search,
     };
     if (departement) params = { ...params, codeDepartement: departement.codeDepartement };
