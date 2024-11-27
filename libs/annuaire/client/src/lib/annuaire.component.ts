@@ -55,7 +55,7 @@ export class AnnuaireComponent {
   annuaireStore = inject(AnnuaireStore);
   router = inject(Router);
 
-  search = new FormControl('');
+  search = new FormControl('', { nonNullable: true });
 
   constructor() {
     this.annuaireStore.loadBySearch(this.search.valueChanges);

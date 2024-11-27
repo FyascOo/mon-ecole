@@ -53,7 +53,7 @@ export class PhonePipe implements PipeTransform {
         <p class="flex flex-col">
           <span class="text-slate-400 text-xs">Adresse mail</span>
           <a class="flex items-center text-blue-800" [href]="'mailto:' + store.ecole().mail">
-            <span>{{ store.ecole().mail }}</span>
+            <span>{{ store.ecole().mail ?? 'Non renseigné' }}</span>
             <span class="ml-4 material-symbols-outlined">mail</span>
           </a>
         </p>

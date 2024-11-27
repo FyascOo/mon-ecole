@@ -18,26 +18,34 @@ export class AnnuaireService {
     if (limit) return this.annuaireRepository.find({ take: limit });
     if (codeDepartement && codeCirconscription)
       return this.annuaireRepository.find({
-        where: [{ codeDepartement: ILike(`${codeDepartement}`), codeCirconscription: ILike(`${codeCirconscription}`) }],
+        where: [{ codeDepartement: ILike(codeDepartement), codeCirconscription: ILike(codeCirconscription) }],
       });
-    if (codeDepartement) return this.annuaireRepository.find({ where: [{ codeDepartement: ILike(`${codeDepartement}`) }] });
-    if (codeCirconscription) return this.annuaireRepository.find({ where: [{ codeCirconscription: ILike(`${codeCirconscription}`) }] });
+    if (codeDepartement) return this.annuaireRepository.find({ where: [{ codeDepartement: ILike(codeDepartement) }] });
+    if (codeCirconscription)
+      return this.annuaireRepository.find({ where: [{ codeCirconscription: ILike(codeCirconscription) }] });
   }
 
   search(search: string, codeDepartement?: string, codeCirconscription?: string) {
-    if(search.includes(' ')) search = search.split(' ').map(s  => `%${s}%`).join(' ')
+    const searchEtablissement = search
+      .split(' ')
+      .map(s => `%${s}%`)
+      .join(' ');
+    const searchCommune = search
+      .split(' ')
+      .map(s => `%${s}%`)
+      .join(' ');
     if (codeDepartement && codeCirconscription) {
       return this.annuaireRepository.find({
         where: [
           {
-            nomEtablissement: ILike(search),
-            codeDepartement: ILike(`${codeDepartement}`),
-            codeCirconscription: ILike(`%${codeCirconscription}%`),
+            nomEtablissement: ILike(searchEtablissement),
+            codeDepartement: ILike(codeDepartement),
+            codeCirconscription: ILike(codeCirconscription),
           },
           {
-            nomCommune: ILike(search),
-            codeDepartement: ILike(`${codeDepartement}`),
-            codeCirconscription: ILike(`%${codeCirconscription}%`),
+            nomCommune: ILike(searchCommune),
+            codeDepartement: ILike(codeDepartement),
+            codeCirconscription: ILike(codeCirconscription),
           },
         ],
       });
@@ -46,8 +54,8 @@ export class AnnuaireService {
     if (codeDepartement) {
       return this.annuaireRepository.find({
         where: [
-          { nomEtablissement: ILike(search), codeDepartement: ILike(`${codeDepartement}`) },
-          { nomCommune: ILike(search), codeDepartement: ILike(`${codeDepartement}`) },
+          { nomEtablissement: ILike(searchEtablissement), codeDepartement: ILike(codeDepartement) },
+          { nomCommune: ILike(searchCommune), codeDepartement: ILike(codeDepartement) },
         ],
       });
     }
@@ -55,18 +63,23 @@ export class AnnuaireService {
     if (codeCirconscription) {
       return this.annuaireRepository.find({
         where: [
-          { nomEtablissement: ILike(search), codeCirconscription: ILike(`${codeCirconscription}`) },
-          { nomCommune: ILike(search), codeCirconscription: ILike(`${codeCirconscription}`) },
+          { nomEtablissement: ILike(searchEtablissement), codeCirconscription: ILike(codeCirconscription) },
+          { nomCommune: ILike(searchCommune), codeCirconscription: ILike(codeCirconscription) },
         ],
       });
     }
     return this.annuaireRepository.find({
-      where: [{ nomEtablissement: ILike(search) }, { nomCommune: ILike(search) }],
+      where: [{ nomEtablissement: ILike(searchEtablissement) }, { nomCommune: ILike(searchCommune) }],
     });
   }
 
   departements() {
-    return this.annuaireRepository.createQueryBuilder('annuaire').select(['annuaire.codeDepartement', 'annuaire.libelleDepartement']).distinctOn(['annuaire.codeDepartement']).orderBy({ 'annuaire.codeDepartement': 'ASC' }).getMany();
+    return this.annuaireRepository
+      .createQueryBuilder('annuaire')
+      .select(['annuaire.codeDepartement', 'annuaire.libelleDepartement'])
+      .distinctOn(['annuaire.codeDepartement'])
+      .orderBy({ 'annuaire.codeDepartement': 'ASC' })
+      .getMany();
   }
 
   circonscriptions() {
