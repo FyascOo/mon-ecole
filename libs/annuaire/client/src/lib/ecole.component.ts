@@ -37,7 +37,7 @@ export class PhonePipe implements PipeTransform {
       <div class="divider"></div>
       <span>{{ store.ecole().nomCirconscription ?? 'Circonscription non renseignée' }}</span>
       <div class="divider"></div>
-      <div class="flex flex-col gap-2">
+      <div class="flex flex-col sm:grid sm:grid-cols-3  gap-4">
         <p class="flex flex-col">
           <span class="text-slate-400 text-xs">Adresse</span>
           <span>{{ store.ecole().adresse1 }}</span>

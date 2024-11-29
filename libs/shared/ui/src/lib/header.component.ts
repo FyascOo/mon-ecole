@@ -25,7 +25,7 @@ import { AnnuaireStore, Circonscription, Departement } from '@mon-ecole/annuaire
         <select
           [formControl]="circonscriptionFC"
           [compareWith]="compareCirconscription"
-          class="max-sm:hidden select select-bordered max-w-xs">
+          class="max-sm:hidden select select-bordered w-40">
           <option selected [ngValue]="null">circonscription</option>
           @for (circonscription of annuaireStore.filterCirconscriptions(); track $index) {
           <option [ngValue]="circonscription">
