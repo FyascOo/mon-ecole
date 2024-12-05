@@ -6,13 +6,29 @@ import { AboutComponent } from './about.component';
   standalone: true,
   imports: [AboutComponent],
   template: `
-    <footer class="footer items-center justify-between p-4 bg-neutral text-neutral-content flex ">
+    <footer class="footer items-center justify-between bg-base-200  text-neutral-content flex p-1">
       <aside class="items-center grid-flow-col">
-        <p># Copyright © 2024 - All right reserved</p>
+        <div class="flex text-base-content gap-1">
+          <a
+            class="flex items-center text-blue-800 underline underline-offset-2"
+            href="https://classeadeux.fr/"
+            target="_blank"
+            rel="noopener">
+            Classeadeux
+          </a>
+          et
+          <a
+            class="flex items-center text-blue-800 underline underline-offset-2"
+            href="https://alan.choufa.fr"
+            target="_blank"
+            rel="noopener">
+            Alan
+          </a>
+        </div>
       </aside>
 
-      <nav class="grid-flow-col gap-4 justify-self-end">
-        <button (click)="clickEventChanges()" class="btn btn-outline btn-sm">À propos</button>
+      <nav class="grid-flow-col justify-self-end">
+        <button (click)="clickEventChanges()" class="btn btn-outline btn-xs">À propos</button>
       </nav>
     </footer>
     <ui-about [openModal]="clickEvent()" />

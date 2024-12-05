@@ -21,7 +21,7 @@ import { DialogComponent } from '@mon-ecole/shared-ui';
         @if(annuaireStore.ecole()) {
         <lib-ecole />
         } @else {
-        <span class="flex justify-center">Aucune école séléctionné</span>
+        <span class="flex justify-center">Aucune école séléctionnée</span>
         }
         <label for="my-drawer-2" class="btn btn-primary drawer-button hidden ">Open drawer</label>
       </div>

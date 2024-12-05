@@ -146,4 +146,54 @@ export class Annuaire {
   codeBassinFormation: string;
   @Column({ name: 'libelle_bassin_formation' })
   libelleBassinFormation: string;
+  @Column({ name: 'annee_scolaire' })
+  anneeScolaire: string;
+  @Column({ name: 'multi_rythme' })
+  multiRythme: string;
+  @Column({ name: 'lundi_matin_debut' })
+  lundiMatinDebut: string;
+  @Column({ name: 'lundi_matin_fin' })
+  lundiMatinFin: string;
+  @Column({ name: 'lundi_apres_midi_debut' })
+  lundiApresMidi_debut: string;
+  @Column({ name: 'lundi_apres_midi_fin' })
+  lundiApresMidi_fin: string;
+  @Column({ name: 'lundi' })
+  lundi: string;
+  @Column({ name: 'mardi_matin_debut' })
+  mardiMatinDebut: string;
+  @Column({ name: 'mardi_matin_fin' })
+  mardiMatinFin: string;
+  @Column({ name: 'mardi_apres_midi_debut' })
+  mardiApresMidiDebut: string;
+  @Column({ name: 'mardi_apres_midi_fin' })
+  mardiApresMidiFin: string;
+  @Column({ name: 'mardi' })
+  mardi: string;
+  @Column({ name: 'mercredi_matin_debut' })
+  mercrediMatinDebut: string;
+  @Column({ name: 'mercredi_matin_fin' })
+  mercrediMatinFin: string;
+  @Column({ name: 'mercredi' })
+  mercredi: string;
+  @Column({ name: 'jeudi_matin_debut' })
+  jeudiMatinDebut: string;
+  @Column({ name: 'jeudi_matin_fin' })
+  jeudiMatinFin: string;
+  @Column({ name: 'jeudi_apres_midi_debut' })
+  jeudiApresMidiDebut: string;
+  @Column({ name: 'jeudi_apres_midi_fin' })
+  jeudiApresMidiFin: string;
+  @Column({ name: 'jeudi' })
+  jeudi: string;
+  @Column({ name: 'vendredi_matin_debut' })
+  vendrediMatinDebut: string;
+  @Column({ name: 'vendredi_matin_fin' })
+  vendrediMatinFin: string;
+  @Column({ name: 'vendredi_apres_midi_debut' })
+  vendrediApresMidiDebut: string;
+  @Column({ name: 'vendredi_apres_midi_fin' })
+  vendrediApresMidiFin: string;
+  @Column({ name: 'vendredi' })
+  vendredi: string;
 }

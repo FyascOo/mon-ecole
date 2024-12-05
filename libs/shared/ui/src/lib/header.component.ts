@@ -12,9 +12,12 @@ import { AnnuaireStore, Circonscription, Departement } from '@mon-ecole/annuaire
       <div class="content-start">
         <ng-content></ng-content>
       </div>
-      <div class=" navbar-center flex justify-center">
-        <span class="text-xl mr-5">École du</span>
-        <select [formControl]="departementFC" [compareWith]="compareDepartement" class="select select-bordered">
+      <div class=" navbar-center flex justify-center gap-4">
+        <span class="text-xl">École du</span>
+        <select
+          [formControl]="departementFC"
+          [compareWith]="compareDepartement"
+          class="select select-bordered select-sm">
           <option selected [ngValue]="null">-</option>
           @for (departement of annuaireStore.filterDepartements(); track $index) {
           <option [ngValue]="departement">
@@ -25,7 +28,7 @@ import { AnnuaireStore, Circonscription, Departement } from '@mon-ecole/annuaire
         <select
           [formControl]="circonscriptionFC"
           [compareWith]="compareCirconscription"
-          class="max-sm:hidden select select-bordered w-40">
+          class="max-sm:hidden select select-bordered w-40 select-sm">
           <option selected [ngValue]="null">circonscription</option>
           @for (circonscription of annuaireStore.filterCirconscriptions(); track $index) {
           <option [ngValue]="circonscription">
