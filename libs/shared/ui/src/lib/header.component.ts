@@ -9,15 +9,15 @@ import { AnnuaireStore, Circonscription, Departement } from '@mon-ecole/annuaire
   imports: [ReactiveFormsModule, SlicePipe],
   template: `
     <div class="navbar bg-base-100 flex shadow gap-5">
-      <div class="content-start">
-        <ng-content></ng-content>
+      <div class="flex-none"><ng-content></ng-content></div>
+      <div class="flex-none">
+        <span class="text-sm w-16 sm:w-full">Annuaire scolaire</span>
       </div>
-      <div class=" navbar-center flex justify-center gap-4">
-        <span class="text-xl">École du</span>
+      <div class="flex-1">
         <select
           [formControl]="departementFC"
           [compareWith]="compareDepartement"
-          class="select select-bordered select-sm">
+          class="select select-bordered select-xs">
           <option selected [ngValue]="null">-</option>
           @for (departement of annuaireStore.filterDepartements(); track $index) {
           <option [ngValue]="departement">
@@ -25,17 +25,11 @@ import { AnnuaireStore, Circonscription, Departement } from '@mon-ecole/annuaire
           </option>
           }
         </select>
-        <select
-          [formControl]="circonscriptionFC"
-          [compareWith]="compareCirconscription"
-          class="max-sm:hidden select select-bordered w-40 select-sm">
-          <option selected [ngValue]="null">circonscription</option>
-          @for (circonscription of annuaireStore.filterCirconscriptions(); track $index) {
-          <option [ngValue]="circonscription">
-            {{ circonscription.codeCirconscription }} - {{ circonscription.nomCirconscription }}
-          </option>
-          }
-        </select>
+      </div>
+      <div class="flex-none">
+        <button class="btn btn-circle btn-outline btn-sm" (click)="open()">
+          <span class="material-symbols-outlined">search</span>
+        </button>
       </div>
     </div>
   `,
@@ -63,5 +57,9 @@ export class HeaderComponent {
 
   compareCirconscription(a: Circonscription | null, b: Circonscription | null) {
     return a?.codeCirconscription === b?.codeCirconscription;
+  }
+
+  open() {
+    this.annuaireStore.openChanges();
   }
 }

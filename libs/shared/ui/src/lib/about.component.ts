@@ -28,6 +28,25 @@ import { ChangeDetectionStrategy, Component, effect, ElementRef, input, viewChil
         </p>
         <h3 class="text-lg font-bold">Source des données</h3>
         <p class="py-2">
+          Nous utilions
+          <a
+            class="text-blue-800 underline underline-offset-2"
+            href="https://openlayers.org/"
+            target="_blank"
+            rel="noopener">
+            OpenLayers
+          </a>
+          pour afficher la carte sous licence
+          <a
+            class="text-blue-800 underline underline-offset-2"
+            href="https://github.com/openlayers/openlayers/blob/main/LICENSE.md"
+            target="_blank"
+            rel="noopener">
+            BSD 2-Clause
+          </a>
+          .
+        </p>
+        <p class="py-2">
           Lors de la création de l'application, ses données étaient issues de la base
           <a
             class="text-blue-800 underline underline-offset-2"

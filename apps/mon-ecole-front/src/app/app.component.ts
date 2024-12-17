@@ -11,7 +11,7 @@ import { FooterComponent, HeaderComponent, MainComponent } from '@mon-ecole/shar
   template: `
     <ui-header>
       <div class="avatar cursor-pointer">
-        <div class="w-12 rounded-full" (click)="open()">
+        <div class="w-10 rounded-full">
           <img class="" src="assets/school_search.png" alt="" />
         </div>
       </div>
@@ -22,8 +22,4 @@ import { FooterComponent, HeaderComponent, MainComponent } from '@mon-ecole/shar
 })
 export class AppComponent {
   annuaireStore = inject(AnnuaireStore);
-
-  open() {
-    this.annuaireStore.openChanges();
-  }
 }

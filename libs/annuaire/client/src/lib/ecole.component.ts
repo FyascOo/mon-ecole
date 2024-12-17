@@ -8,6 +8,8 @@ import { fromLonLat } from 'ol/proj.js';
 import { OSM, Vector as VectorSource } from 'ol/source.js';
 import { AnnuaireStore } from './annuaire.store';
 
+import { Attribution, defaults as defaultControls } from 'ol/control.js';
+
 @Pipe({
   name: 'phone',
   standalone: true,
@@ -127,9 +129,13 @@ export class EcoleComponent {
       if (this.store.ecole()) {
         const positions = fromLonLat([this.store.ecole().longitude, this.store.ecole().latitude]);
         const point = new Point(positions);
+
+        const attribution = new Attribution({
+          collapsible: false,
+        });
         this.view = new View({
           center: positions,
-          zoom: 15,
+          zoom: 16,
         });
         if (!this.map) {
           this.map = new Map({
@@ -148,6 +154,7 @@ export class EcoleComponent {
                 },
               }),
             ],
+            controls: defaultControls({ attribution: false, zoom: false }).extend([attribution]),
             target: 'ol-map',
             interactions: defaults({
               doubleClickZoom: false,
@@ -159,7 +166,6 @@ export class EcoleComponent {
               keyboard: false,
               onFocusOnly: false,
             }),
-            controls: [],
           });
         }
         this.map.setView(this.view);

@@ -1,6 +1,6 @@
 {
-  "name": "mon-ecole",
-  "short_name": "mon-ecole",
+  "name": "Annuaire scolaire",
+  "short_name": "Annuaire scolaire",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
