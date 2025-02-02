@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component, effect, ElementRef, input, viewChil
   template: `
     <dialog #modal class="modal">
       <div class="modal-box">
-        <h3 class="text-lg font-bold">Hello!</h3>
+        <h3 class="text-lg font-bold">À propos</h3>
         <p class="py-2">
           Application developpée par
           <a
@@ -25,10 +25,19 @@ import { ChangeDetectionStrategy, Component, effect, ElementRef, input, viewChil
             rel="noopener">
             Classeadeux
           </a>
+          . Son code source est disponible sur
+          <a
+            class="text-blue-800 underline underline-offset-2"
+            href="https://forge.apps.education.fr/classeadeux/annuaire-scolaire"
+            target="_blank"
+            rel="noopener">
+            la Forge des communs numérique éducatifs
+          </a>
+          .
         </p>
         <h3 class="text-lg font-bold">Source des données</h3>
         <p class="py-2">
-          Nous utilions
+          Nous utilisons
           <a
             class="text-blue-800 underline underline-offset-2"
             href="https://openlayers.org/"
